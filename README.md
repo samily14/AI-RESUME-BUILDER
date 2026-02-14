@@ -1,67 +1,95 @@
-# Getting Started with Create React App
+AI Resume Builder – MERN Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack AI Resume Builder web application that allows users to create professional resumes, preview them, and download them as PDF files.
+Built using the MERN stack with server-side PDF generation.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+User-friendly resume form
 
-### `npm start`
+Clean and responsive UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Career Objective, Skills, Projects, and Experience sections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dynamic PDF resume generation
 
-### `npm test`
+REST API–based backend architecture
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Separation of frontend and backend
 
-### `npm run build`
+🛠️ Tech Stack
+Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js (Create React App)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HTML5, CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Axios
 
-### `npm run eject`
+Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Express.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MongoDB (Mongoose)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Puppeteer (PDF generation)
 
-## Learn More
+📁 Project Structure
+AI-Resume-Builder-MERN/
+│
+├── frontend/        # React frontend
+│   ├── src/
+│   │   ├── App.js
+│   │   └── App.css
+│   └── package.json
+│
+├── backend/         # Node & Express backend
+│   ├── routes/
+│   │   └── resumeRoutes.js
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/samily14/AI-Resume-Builder-MERN.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2️⃣ Backend setup
+cd backend
+npm install
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend runs on http://localhost:5000
 
-### Analyzing the Bundle Size
+3️⃣ Frontend setup
+cd frontend
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Frontend runs on http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📄 PDF Generation Workflow
 
-### Advanced Configuration
+User enters resume details in the React frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Data is sent to backend via REST API
 
-### Deployment
+Backend uses Puppeteer to convert HTML into PDF
+
+Resume is downloaded automatically
+
+🎯 Use Case
+
+Resume creation for students and freshers
+
+Internship and placement preparation
+
+Learning full-stack MERN development
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
