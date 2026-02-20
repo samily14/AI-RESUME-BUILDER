@@ -1,0 +1,9 @@
+.ats-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+.circle {
+  font-size: 32px;
+  color: green;
+}
