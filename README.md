@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+AI Resume Builder 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI Resume Builder is a MERN Stack application that helps users create ATS-friendly resumes. The app guides users through a structured, AI-assisted resume-building process, ensuring professional formatting and optimized content for job applications.
 
-## Available Scripts
+ Key Features
 
-In the project directory, you can run:
+Secure User Authentication: Login, registration, and profile management.
 
-### `npm start`
+Step-by-Step Resume Creation: Fill in essential sections:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - Profile Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - Skills
 
-### `npm test`
+    - Education
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - Experience
 
-### `npm run build`
+    - Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ATS-Friendly Formatting: Resume output designed to pass Applicant Tracking Systems.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ATS Score Analysis: Evaluate your resume’s effectiveness and get improvement suggestions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+One-Click Resume Download: Export resumes in professional formats (PDF).
 
-### `npm run eject`
+Responsive & User-Friendly UI: Smooth, intuitive experience across devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend: React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend: Node.js, Express.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Database: MongoDB
 
-## Learn More
+API Integration: RESTful APIs for data handling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Design: Clean, responsive UI for seamless user experience
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Getting Started
+Prerequisites
 
-### Code Splitting
+Node.js & npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MongoDB
 
-### Analyzing the Bundle Size
+Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Installation
 
-### Making a Progressive Web App
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git clone <repository-url>
 
-### Advanced Configuration
+Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+cd ai-resume-builder
 
-### Deployment
+Install backend dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd backend
+npm install
 
-### `npm run build` fails to minify
+Install frontend dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cd ../frontend
+npm install
+
+Setup environment variables (.env file) for MongoDB URI, JWT secret, etc.
+
+Start the application:
+
+# Backend
+cd backend
+npm run server
+
+# Frontend
+cd ../frontend
+npm start
+
+Open http://localhost:3000
+ in your browser.
+
+📊 Impact
+
+AI Resume Builder simplifies resume creation while helping users improve their ATS scores, making resumes more effective for job applications. It is especially useful for students and early professionals seeking to make a strong first impression.
+
+🌟 **Future Enhancements**
+
+AI-based suggestions for phrasing and keywords
+
+Integration with LinkedIn for profile import
+
+Multiple resume templates and styles
+
+Advanced analytics on resume performance
+
+📂** Folder Structure**
+ai-resume-builder/
+├── backend/       # Node.js + Express API
+├── frontend/      # React.js app
+├── README.md      # Project documentation
+└── .env           # Environment variables
+🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with improvements or bug fixes.
+
+📄 License
+
+This project is MIT licensed.
